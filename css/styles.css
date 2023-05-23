@@ -208,7 +208,7 @@ img {
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 11580px) {
   .header-logo {
     margin-right: 76px;
   }
@@ -518,6 +518,7 @@ img {
 /* ==========================/HERO ========================== */
 
 .but-list {
+  display: flex;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
