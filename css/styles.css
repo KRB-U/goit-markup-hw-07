@@ -867,12 +867,12 @@ img {
   }
 } */
 
-.social-media {
+.basement-container {
   align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
-  .social-media {
+  .basement-container {
     display: flex;
     flex-wrap: wrap;
     /* align-items: baseline; */
@@ -882,7 +882,7 @@ img {
 }
 
 @media only screen and (min-width: 1200px) {
-  .social-media {
+  .basement-container {
     display: flex;
     align-items: center;
     /* flex-wrap: nowrap; */
