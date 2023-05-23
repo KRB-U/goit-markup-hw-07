@@ -888,10 +888,8 @@ img {
 
 @media only screen and (min-width: 768px) {
   .logoblock {
-    /* margin-right: 24px; */
-
+    margin-right: 24px;
     margin-left: 108px;
-    margin-bottom: 0px;
   }
 }
 
@@ -915,6 +913,12 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .basement-logo-iris {
+    text-align: left;
+  }
 }
 
 /* studio logo part */
