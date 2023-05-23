@@ -859,14 +859,6 @@ img {
   padding-bottom: 100px;
 }
 
-/* @media only screen and (min-width: 1200px) {
-  .basement {
-    display: flex;
-    align-items: flex-end;
-    margin-left: auto;
-  }
-} */
-
 .basement-container {
   align-items: center;
 }
