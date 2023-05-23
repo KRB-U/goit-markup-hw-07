@@ -208,21 +208,16 @@ img {
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 11580px) {
+@media only screen and (min-width: 1580px) {
   .header-logo {
-    margin-right: 76px;
+    /* margin-right: 76px; */
   }
 }
 
 /* studio logo part */
 .studio-logo {
-  font-family: var(--secondary-font);
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
   color: var(--navy-blue-color);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .menu {
