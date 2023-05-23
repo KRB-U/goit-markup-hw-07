@@ -162,9 +162,12 @@ img {
 
 /* розташування в рядок хедера */
 .nav-menu {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* gap: 76px; */
+  /* align-items: center; */
   display: flex;
-  flex-wrap: wrap;
-  gap: 76px;
+  gap: 40px;
   align-items: center;
 }
 
@@ -184,18 +187,6 @@ img {
   display: flex;
   display: none;
 }
-
-.page-header-container {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
-
-/* @media only screen and (min-width: 768px) {
-  .page-header-container {
-  }
-  
-
 
 /* Web logo part*/
 .header-logo {
@@ -275,6 +266,12 @@ img {
     display: flex;
     align-items: center;
   }
+}
+
+.contacts-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 @media only screen and (max-width: 1199px) {
