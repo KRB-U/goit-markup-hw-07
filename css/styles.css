@@ -933,11 +933,11 @@ img {
 /* studio logo part */
 .basement-logo-cloud {
   color: var(--cloud-background-color);
-  font-weight: 800;
+  /* font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  text-transform: uppercase; */
 }
 
 /* footer formatting text */
@@ -947,7 +947,7 @@ img {
   line-height: 1.5;
   color: var(--cloud-background-color);
   letter-spacing: 0.02em;
-  mwidth: 268px;
+  width: 268px;
 
   margin-left: auto;
   margin-right: auto;
