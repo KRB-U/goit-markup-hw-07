@@ -644,6 +644,14 @@ img {
   /* display: none; */
 }
 
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 @media only screen and (max-width: 1158px) {
   .doing-section {
     display: none;
@@ -889,7 +897,7 @@ img {
 @media only screen and (min-width: 768px) {
   .logoblock {
     margin-right: 24px;
-    margin-left: 108px;
+    /* margin-left: 108px; */
   }
 }
 
@@ -1072,6 +1080,7 @@ img {
 @media only screen and (min-width: 768px) {
   .subsr-form-field {
     margin-right: 24px;
+    width: 100%;
   }
   .form-subsr-input {
     margin-right: 24px;
