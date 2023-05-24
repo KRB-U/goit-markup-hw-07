@@ -1394,6 +1394,14 @@ img {
   margin-right: 8px;
 }
 
+@media only screen and (max-width: 427px) {
+  .modal-form-check-desc::before {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+  }
+}
+
 .modal-form-check-desc > a {
   color: var(--iris-button-color);
 }
