@@ -873,6 +873,7 @@ img {
     /* align-items: baseline; */
     /* text-align: center; */
     /* justify-content: center; */
+    padding-left: 108px;
   }
 }
 
@@ -881,6 +882,7 @@ img {
     display: flex;
     align-items: center;
     /* flex-wrap: nowrap; */
+    padding-left: 0;
   }
 }
 
@@ -1054,7 +1056,6 @@ img {
   .form-subsr {
     flex-direction: row;
     align-items: flex-end;
-    padding-left: 108px;
   }
 }
 
