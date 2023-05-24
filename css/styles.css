@@ -846,9 +846,6 @@ img {
   .basement-container {
     display: flex;
     flex-wrap: wrap;
-    /* align-items: baseline; */
-    /* text-align: center; */
-    /* justify-content: center; */
     padding-left: 108px;
   }
 }
