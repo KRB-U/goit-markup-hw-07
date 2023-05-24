@@ -1376,7 +1376,7 @@ img {
   margin-bottom: 24px;
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 390px) {
   .modal-form-check-desc {
     font-size: 9px;
   }
@@ -1394,7 +1394,7 @@ img {
   margin-right: 8px;
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 390px) {
   .modal-form-check-desc::before {
     width: 14px;
     height: 14px;
@@ -1406,7 +1406,7 @@ img {
   color: var(--iris-button-color);
 }
 
-@media only screen and (max-width: 427px) {
+@media only screen and (max-width: 390px) {
   .link-priv-pol {
     font-size: 9px;
   }
