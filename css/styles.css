@@ -220,8 +220,8 @@ img {
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-. .menu-link:is(:hover, :focus),
-.contact-pc:is(:hover, :focus) {
+.menu-link:is(:hover, :focus),
+.contact-link:is(:hover, :focus) {
   color: var(--ocean-button-color);
 }
 
@@ -287,7 +287,7 @@ img {
   }
 }
 
-.contact-pc {
+.contact-link {
   display: flex;
   gap: 40px;
   align-items: center;
@@ -295,6 +295,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate-color);
+  margin-left: auto;
   margin-right: 40px;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -302,7 +303,7 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-  .contact-pc {
+  .contact-link {
     display: flex;
 
     font-weight: 400;
@@ -318,7 +319,7 @@ img {
 }
 
 @media only screen and (min-width: 1158px) {
-  .contact-pc {
+  .contact-link {
     gap: 40px;
     align-items: center;
     font-weight: 400;
@@ -333,7 +334,7 @@ img {
   }
 }
 
-.contact-pc-second:is(:hover, :focus) {
+.contact-link-second:is(:hover, :focus) {
   color: var(--ocean-button-color);
 }
 
