@@ -865,6 +865,7 @@ img {
     align-items: baseline;
     padding-left: 15px;
     justify-content: space-between;
+    margin-bottom: 0;
   }
 }
 
@@ -886,6 +887,7 @@ img {
     align-items: baseline;
     margin-left: 0px;
     margin-right: 120px;
+    margin-bottom: 0;
   }
 }
 
@@ -964,6 +966,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .social-block {
     margin-right: 80px;
+    margin-bottom: 0;
   }
 }
 
