@@ -267,6 +267,11 @@ img {
     align-items: center;
   }
 }
+@media only screen and (max-width: 767px) {
+  .contacts-sec {
+    display: none;
+  }
+}
 
 .contacts-list {
   display: flex;
@@ -290,12 +295,12 @@ img {
 
 .contacts-items {
 }
-
+/* 
 @media only screen and (max-width: 767px) {
   .contacts-items {
-    display: none;
+  
   }
-}
+} */
 
 .contact-pc {
   display: flex;
@@ -625,6 +630,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate-color);
   flex-basis: calc((100% - 3 * 24px) / 4);
+  text-align: left;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -961,7 +967,7 @@ img {
 
 @media only screen and (min-width: 1200px) {
   .text-format {
-    min-width: 264px;
+    /* min-width: 264px; */
     margin-right: 120px;
   }
 }
