@@ -170,7 +170,7 @@ img {
   display: flex;
   align-content: center;
   flex-wrap: wrap;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 @media only screen and (max-width: 767px) {
@@ -210,7 +210,7 @@ img {
 /* studio logo part */
 .studio-logo {
   color: var(--navy-blue-color);
-  margin-right: 76px;
+  margin-right: 120px;
 }
 
 .menu-list {
