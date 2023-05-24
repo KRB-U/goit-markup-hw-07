@@ -535,7 +535,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1158px) {
   .scroll-section-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
   }
@@ -1673,7 +1673,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--iris-button-color);
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .mobile-contacts-email {
