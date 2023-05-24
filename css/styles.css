@@ -146,6 +146,9 @@ img {
   }
 }
 
+.header-menu {
+}
+
 /* розташування в рядок хедера */
 .nav-menu {
   /* display: flex; */
@@ -153,8 +156,9 @@ img {
   /* gap: 76px; */
   /* align-items: center; */
   display: flex;
-  gap: 40px;
-  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  margin-right: auto;
 }
 
 /* @media only screen and (max-width: 1200px) {
@@ -197,10 +201,9 @@ img {
   margin-right: 76px;
 }
 
-.menu {
+.menu-list {
   display: flex;
   gap: 40px;
-  align-items: center;
 }
 
 /* .menu-item {
@@ -215,8 +218,7 @@ img {
   padding: 24px 0;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.menu-link:is(:hover, :focus),
+. .menu-link:is(:hover, :focus),
 .contact-pc:is(:hover, :focus) {
   color: var(--ocean-button-color);
 }
