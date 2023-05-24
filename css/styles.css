@@ -366,8 +366,8 @@ img {
   background-color: var(--hero-background-color);
   letter-spacing: 0.03em;
   margin: 0 auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
 
   /* height: 428px; */
 }
@@ -464,6 +464,8 @@ img {
   margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
+
+  /* margin-top: 112px; */
 }
 
 @media only screen and (min-width: 768px) {
@@ -508,6 +510,8 @@ img {
 
   min-width: 169px;
   height: 56px;
+
+  /* margin-bottom: 112px; */
 
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
