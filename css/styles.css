@@ -873,6 +873,7 @@ img {
   .basement-container {
     display: flex;
     flex-wrap: wrap;
+    padding-left: 108px;
     /* align-items: baseline; */
     /* text-align: center; */
     /* justify-content: center; */
@@ -883,6 +884,7 @@ img {
   .basement-container {
     display: flex;
     align-items: center;
+    padding-left: 0;
     /* flex-wrap: nowrap; */
   }
 }
@@ -1057,7 +1059,7 @@ img {
   .form-subsr {
     flex-direction: row;
     align-items: flex-end;
-    padding-left: 108px;
+    /* padding-left: 108px; */
   }
 }
 
@@ -1067,7 +1069,7 @@ img {
     /* align-items: flex-end; */
 
     /* margin-left: auto; */
-    padding-left: 0;
+    /* padding-left: 80px; */
   }
 }
 
