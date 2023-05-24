@@ -1376,6 +1376,12 @@ img {
   margin-bottom: 24px;
 }
 
+@media only screen and (max-width: 427px) {
+  .modal-form-check-desc {
+    font-size: 9px;
+  }
+}
+
 .modal-form-check-desc::before {
   content: "";
   display: block;
@@ -1390,6 +1396,12 @@ img {
 
 .modal-form-check-desc > a {
   color: var(--iris-button-color);
+}
+
+@media only screen and (max-width: 427px) {
+  .link-priv-pol {
+    font-size: 9px;
+  }
 }
 
 .modal-form-submit {
