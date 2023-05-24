@@ -137,6 +137,7 @@ img {
 
 .top-header-container {
   display: flex;
+  align-items: center;
 }
 
 @media only screen and (min-width: 768px) {
@@ -144,7 +145,6 @@ img {
     flex-direction: row;
     justify-content: space-between;
     min-height: 70px;
-    align-items: center;
     /* max-width: none; */
   }
 }
