@@ -261,10 +261,9 @@ img {
   margin-left: auto;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) {
   .contacts-sec {
-    display: flex;
-    align-items: center;
+    display: none;
   }
 }
 
@@ -289,12 +288,6 @@ img {
 } */
 
 .contacts-items {
-}
-
-@media only screen and (max-width: 767px) {
-  .contacts-items {
-    display: none;
-  }
 }
 
 .contact-pc {
