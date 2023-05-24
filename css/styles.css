@@ -859,6 +859,7 @@ img {
     align-items: baseline;
     /* flex-wrap: nowrap; */
     padding-left: 0;
+    justify-content: space-between;
   }
 }
 
