@@ -24,38 +24,51 @@
 
   <body>
     <!-- Header section -->
-    <header class="top-header border-header">
+    <header class="top-header">
       <div class="top-header-container container">
-        <nav class="nav-menu page-header-container">
-          <a class="header-logo link preform" href="./index.html"
-            >Web<span class="studio-logo">Studio</span></a
-          >
-          <ul class="menu list">
-            <li class="menu-item">
-              <a class="menu-link link" href="./index.html">Studio</a>
-            </li>
-            <li class="menu-item">
-              <a class="menu-link link active" href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li class="menu-item">
-              <a class="menu-link link" href="">Contacts</a>
-            </li>
-          </ul>
-        </nav>
+        <a class="header-logo link" href="./index.html"
+          >Web<span class="studio-logo">Studio</span></a
+        >
+        <!-- button-toggle -->
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="icon-burger-btn" width="30" height="19">
+            <use href="./images/icons.svg#icon-burger-menu"></use>
+          </svg>
+        </button>
+
+        <div class="header-menu">
+          <nav class="nav-menu">
+            <ul class="menu list">
+              <li class="menu-item">
+                <a class="menu-link link" href="./index.html">Studio</a>
+              </li>
+              <li class="menu-item">
+                <a class="menu-link link active" href="./portfolio.html"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="menu-item">
+                <a class="menu-link link" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
 
         <!-- contacts -->
         <address class="contacts-sec">
-          <ul class="contacts-items link list page-header-container">
-            <li>
+          <ul class="contacts-list link list">
+            <li class="contacts-items">
               <a
                 class="contact-pc link contact-pc-second"
                 href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="contacts-items">
               <a
                 class="contact-pc link contact-pc-second"
                 href="tel:+110001111111"
