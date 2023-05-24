@@ -322,41 +322,49 @@ img {
 .hero {
   /* add dis-none */
   /* display: none; */
+
+  max-width: 1440px;
+  margin-left: auto;
+  margin-bottom: auto;
+  border-style: cover;
+
   background-color: var(--hero-background-color);
   letter-spacing: 0.03em;
   margin: 0 auto;
   padding-top: 188px;
   padding-bottom: 188px;
 
-  /* height: 428px; */
-}
-
-@media only screen and (min-width: 768px) {
-  .hero {
-    height: 768px;
-  }
-}
-
-.overlay-hero {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-bottom: auto;
-
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-style: cover;
-
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/hero-pic-mob.jpg);
+
+  /* height: 428px; */
+
+  padding: 112px 0;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    /* height: 768px; */
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .hero {
+    padding: 188px 0;
+  }
+}
+
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .overlay-hero {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -366,7 +374,7 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-  .overlay-hero {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -376,7 +384,7 @@ img {
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .overlay-hero {
+    .hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
@@ -387,7 +395,7 @@ img {
 }
 
 @media only screen and (min-width: 1158px) {
-  .overlay-hero {
+  .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -397,7 +405,7 @@ img {
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-    .overlay-hero {
+    .hero {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
