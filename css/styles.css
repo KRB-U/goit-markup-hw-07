@@ -953,6 +953,7 @@ img {
 
   /* align-items: baseline; */
   text-align: center;
+  margin-bottom: 72px;
 }
 
 @media only screen and (min-width: 768px) {
