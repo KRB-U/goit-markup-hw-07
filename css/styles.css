@@ -1376,11 +1376,11 @@ img {
   margin-bottom: 24px;
 }
 
-@media only screen and (max-width: 390px) {
+/* @media only screen and (max-width: 390px) {
   .modal-form-check-desc {
     font-size: 9px;
   }
-}
+} */
 
 .modal-form-check-desc::before {
   content: "";
@@ -1406,11 +1406,16 @@ img {
   color: var(--iris-button-color);
 }
 
-@media only screen and (max-width: 390px) {
-  .link-priv-pol {
+@media only screen and (max-width: 427px) {
+  .check-priv-pol {
     font-size: 9px;
   }
 }
+/* @media only screen and (max-width: 390px) {
+  .link-priv-pol {
+    font-size: 9px;
+  }
+} */
 
 .modal-form-submit {
   align-self: center;
